@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic operations</title>
+</head>
+
+<body>
+
+    <script type="text/javascript">
+
+        let result;
+
+        const number_a = parseFloat(prompt("Please enter number a:"));
+        const operator = prompt("Please enter operator (either +, -, * or /): ");
+        const number_b = parseFloat(prompt("Please enter number b:"));
+
+        switch (operator) {
+            case "+":
+                alert(result = number_a + number_b)
+                break;
+            case "-":
+                alert(result = number_a - number_b)
+                break;
+            case "*":
+                alert(result = number_a * number_b)
+                break;
+            case "/":
+                alert(result = number_a / number_b)
+                break;
+            default:
+                alert("Invalid operator");
+                break;
+        }
+
+    </script>
+
+</body>
+
+</html>
